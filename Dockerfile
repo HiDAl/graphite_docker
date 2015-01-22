@@ -59,7 +59,7 @@ run     mkdir /src/grafana && cd /src/grafana &&\
 add     ./grafana/config.js /src/grafana/config.js
 
 # proxy
-add     ./google_auth_proxy/google_auth_proxy /usr/local/bin/google_auth_proxy
+# add     ./google_auth_proxy/google_auth_proxy /usr/local/bin/google_auth_proxy
 
 # elasticsearch
 add	./elasticsearch/run /usr/local/bin/run_elasticsearch
